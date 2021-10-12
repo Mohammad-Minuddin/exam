@@ -64,44 +64,33 @@ header .menu li{
 
 
 /* ----------Wallet---------- */
-/* .wallet .simg{
-    width: 200px;
+
+.main img{
+    width: 150px;
 }
-.sofa{
-    background: #e2f8ff;
-    padding: 30px 0px;
+.main .row{
+    margin: 0px auto;
 }
-.sofaim{
-    padding-left: 90px;
+.row1{
+    padding: 40px 0;
+    background-color: #E2F8FF;
 }
-.sofa button{
-    padding: 9px 20px;
+.row2{
+    padding: 40px 0;
+    background-color: #F5F9EB;
+}
+.main button{
+    padding: 9px 25px;
     border-radius: 10px;
-    background: #26a6d1;
     color: white;
     border: none;
 }
-.wallet p{
-    width: 74%;
-    font-size: 19px;
+.row1 button{
+    background-color: #26A6D1;
 }
-.wallett{
-    padding: 30px 0px;
-    background: #f5f9eb;
+.row2 button{
+    background-color: #ADD136;
 }
-.wallett button{
-    padding: 9px 20px;
-    border-radius: 10px;
-    background: #add136;
-    color: white;
-    border: none;
-}
-.wallettim{
-    padding-left: 99px;
-}
-.wallet .wimg{
-    width: 160px;
-} */
 /* ----------Wallet END---------- */
 
 /* ----------London---------- */
@@ -198,6 +187,12 @@ footer{
     .project h3{
         text-align: center;
     }
+    .main{
+        text-align: center;
+    }
+    .main img{
+        padding-bottom: 30px;
+    }
 }
 @media (max-width: 576px) {
     .project button{
@@ -219,5 +214,11 @@ footer{
     }
     .project h3{
         text-align: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .main img{
+        padding-bottom: 30px;
     }
 }
